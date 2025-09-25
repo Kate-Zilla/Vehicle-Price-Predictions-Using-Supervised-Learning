@@ -1,3 +1,16 @@
+#specific ignores for this project:
+#ignore the dataset
+*.csv
+*.zip
+data/
+
+#ignore any jupyter temp files or system junk
+.ipynb_checkpoints
+.DS_store
+
+
+## EVERYTHING BELOW THIS IS FROM THE PYTHON GITIGNORE TEMPLATE
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
